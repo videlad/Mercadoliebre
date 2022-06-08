@@ -1,0 +1,139 @@
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+p {
+    font-size: 12px;
+}
+
+/*------------------------------------Header------------------------------------*/
+
+header {
+    background-color: var(--Amarillo);
+    font-size: 12px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*.logo {
+    size: ;
+}*/
+
+.burger-menu {
+    background-color: var(--Azul);
+    color: var(--Gris-claro);
+}
+
+/*------------------------------------Main------------------------------------*/
+
+.main {
+    width: 90%;
+
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--Verde);
+    background-color: var(--Gris-claro);
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+main section article img {
+    width: 100%;
+}
+/*.main-articulo {
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: solid 1px var(--Gris-claro);
+    box-sizing: border-box;
+    margin: 15px 15px 15px 15px;
+    background-color: var(--Gris-claro);
+    
+}*/
+
+.precio {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color:var(--Verde);
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--Gris-oscuro);
+}
+
+.articulo-camion {
+    color:var(--Verde);
+    border-radius: 50px;
+    box-shadow: 0 0 2px var(--Verde);
+    padding: 0.5em 0.6em;
+    display: inline-block;
+    
+        
+}
+/*------------------------------------Footer------------------------------------*/
+
+.footer {
+    text-align: center;
+}
+
+.footer-titulo {
+    font-size: 16px ;
+}
+
+.footer-descripcion {
+    margin-bottom: 10px;
+}
+
+
+
+.footer-icons {
+    font-size: 2em;
+    color: var(--Azul);
+    
+}
+
+/*------------------------------------Diseño adaptativo------------------------------------*/
+
+
+@media (min-width:361px) {
+    /* Tablets */
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);;
+    }
+}
+
+@media (min-width:769px) {
+    /* Laptops */
+}
