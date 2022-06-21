@@ -16,10 +16,15 @@
 body {
     font-family: 'Roboto', sans-serif;
     list-style: none;
+    background-color: var(--Gris-claro);
 }
 
 p {
     font-size: 12px;
+}
+
+div {
+    display: block;
 }
 
 /*------------------------------------Header------------------------------------*/
@@ -42,6 +47,10 @@ a {
 .burger-menu {
     background-color: var(--Azul);
     color: var(--Gris-claro);
+}
+
+div.burger-menu {
+    text-align: center;
 }
 
 /*------------------------------------Main------------------------------------*/
@@ -136,4 +145,16 @@ main section article img {
 
 @media (min-width:769px) {
     /* Laptops */
+    main section article img {
+        width: 100%;
+    }
 }
+
+/*main section div.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}*/
+
